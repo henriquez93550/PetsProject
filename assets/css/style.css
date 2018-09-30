@@ -1,0 +1,9 @@
+.jumbotron {
+    background-image: url("../images/kittenanddog\ 2.jpg");
+    background-size: cover;
+    color: white;
+}
+img {
+    height: 200px;
+    width: 300px;
+}
