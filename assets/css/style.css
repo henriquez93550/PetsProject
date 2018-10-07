@@ -67,9 +67,16 @@ img {
   
   #github {
     color: white;
+    padding-right: 1px;
   }
   a {
     color: white;
+   
   }
 
-  
+  h3 {
+    color: white;
+  }
+a {
+  padding-right: 10px;
+}
