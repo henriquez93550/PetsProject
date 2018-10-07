@@ -38,36 +38,87 @@
               </div>
             </div>
           </nav>
-          <div class="radio">
-				<H3>Question: when faced with a problem do you try to resolve the issue yourself or do you seek the counsel of others?</H3>
-				<label><input type="radio" value="I" name='Q1'>Resolve myself</label>
-				<label><input type="radio" value="E" name='Q1'>Look to the counsel of others</label>
-			</div>
-			<div class="checkbox">
-				<H3>Can you work with theories and concepts or do you feel more comfortable dealing in facts?</H3>
-				<label><input type="radio" value="S" name='Q2'>Deals with facts</label>
-				<label><input type="radio" value="N" name='Q2'>Comfortable with theories and concepts</label>
-				
-			</div>
-			<div class="checkbox disabled">
-				<H3>When making decisions do you prefer to make decisions that are free from conflict or are you comfortable making decisions that might cause conflicts?</H3>
-				<label><input type="radio" value="F" name='Q3'>Make decisions free from conflict</label>
-				<label><input type="radio" value="T" name='Q3'>Make decisions where conflict is expected</label>
-			</div>
-			<div class="checkbox disabled">
-				<H3>When you explain things to others do you convey your perceptions and leave matters open or do you make decisions and tell people how to settle the matter?</H3>
-				<label><input type="radio" value="P" name='Q4'>Explain our perceptions</label>
-				<label><input type="radio" value="J" name='Q4'>Make decisions where conflict is expected</label>
-			</div>
-			<br/><br/>
-			<input type="button" id="btnGetValue" Value="Get Value" />
+          
+          <div class="container">
+
+                <h1 class="question">When faced with a problem do you try to resolve the issue yourself or do you seek the counsel of others?</h1>
+                  <div class="btn-group-lg btn-group" data-toggle="buttons">
+                    <row>
+                      <div class="col-lg-6">
+                        <label class="btn btn-primary">
+                          <input type="radio" name="Q1" value="I" id="option1"> Resolve myself
+                        </label>
+                      </div>
+                      
+                      <div class="col-lg-6">
+                        <label class="btn btn-primary">
+                          <input type="radio" name="Q1" value="E" id="option2"> Look to the counsel of others
+                        </label>
+                      </div>
+                    </row>
+                </div>
+              
+
+                <h1 class="question">Can you work with theories and concepts or do you feel more comfortable dealing in facts?</h1>
+                  <div class="btn-group-lg btn-group" data-toggle="buttons">
+                    <row>
+                      <div class="col-lg-6">
+                        <label class="btn btn-primary">
+                          <input type="radio" name="Q2" value="S" id="option1"> Deals with facts
+                        </label>
+                      </div>
+                      
+                      <div class="col-lg-6">
+                        <label class="btn btn-primary">
+                          <input type="radio" name="Q2" value="N" id="option2"> Comfortable with theories and concepts
+                        </label>
+                      </div>
+                    </row>
+                </div>
+
+                <h1 class="question">When making decisions do you prefer to make decisions that are free from conflict or are you comfortable making decisions that might cause conflicts?</h1>
+                  <div class="btn-group-lg btn-group" data-toggle="buttons">
+                    <row>
+                      <div class="col-lg-6">
+                        <label class="btn btn-primary">
+                          <input type="radio" name="Q3" value="F" id="option1"> Make decisions free from conflict
+                        </label>
+                      </div>
+                     
+                      <div class="col-lg-6">
+                        <label class="btn btn-primary">
+                          <input type="radio" name="Q3" value="T" id="option2"> Make decisions where conflict is expected
+                        </label>
+                      </div>
+                    </row>
+                </div>
+
+                <h1 class="question">When you explain things to others do you convey your perceptions and leave matters open or do you make decisions and tell people how to settle the matter?</h1>
+                  <div class="btn-group-lg btn-group" data-toggle="buttons">
+                    <row>
+                      <div class="col-lg-6">
+                        <label class="btn btn-primary">
+                          <input type="radio" name="Q4" value="P" id="option1"> Explain our perceptions
+                        </label>
+                      </div>
+                      
+                      <div class="col-lg-6">
+                        <label class="btn btn-primary">
+                          <input type="radio" name="Q4" value="J" id="option2"> Make decisions where conflict is expected
+                        </label>
+                      </div>
+                    </row>
+                </div>
+                <br><br>
+
+            <input class="btn btn-primary" type="submit" id="btnGetValue" value="Get Value">
 			<p></p>
 
           <section id="contact">
 			<div class="contact-section">
 			
 				<form>
-					<div class="col-md-6 form-line">
+					<div class="col-md-12">
 			  			<div class="form-group">
 			  				<label for="exampleInputUsername">Adult Dog</label>
 					    	<input type="text" class="form-control" id="adultDog" value=''>

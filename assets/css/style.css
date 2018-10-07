@@ -64,5 +64,12 @@ img {
   .question {
     font-size: 1.3em;
   }
+  
+  #github {
+    color: white;
+  }
+  a {
+    color: white;
+  }
 
   
