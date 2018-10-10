@@ -13,15 +13,17 @@ var Match = {
 	INTP: { adultDog: 'Turkish Van',
             reasonAdult: 'This cat has great reasoning skills which matches your analytical skills.  Turkish Van is, like you, in love with water', 
 			pupDog: 'Ragdoll', 
-            reasonPuppy:  'Ragdolls are smart but they can be aloof, quiet, and pensive.....just like your mother.'
+            reasonPuppy:  'The Savannah is confident and dominant like a jar of mayo.  It is the result of breeding a wild cat such as a serval and a house cat.'
 		  },
 	ENTJ: { adultDog: 'MaineCoon',
             reasonAdult: 'The MaineCoon is probably the smartest of all cat breeds.  Both of you have one thing in common: illiteracy.', 
 			pupDog: 'Savannah', 
-            reasonPuppy:  'The Savannah is confident and dominant like a jar of mayo.  It is the result of breeding a wild cat such as a serval and a house cat.'
+            reasonPuppy:  'Ragdolls are smart but they can be aloof, quiet, and pensive.....just like your mother.'
 		  }
 	};
-	
+    
+    
+    
 	function reSet() {
 		$("#adultDog").val("");
 		$("#reasonAdult").val("");
