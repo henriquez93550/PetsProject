@@ -5,20 +5,20 @@ var Match = {
 	selValue4: '',
 	type     : '',
 	
-	INTJ: { adultDog: 'Shar-Pei',
-            reasonAdult: 'Shar-Peis are smart which is perfect for your analytical mind.  They also tend to be loners which an introvert will love.',
-			pupDog: 'Doberman', 
-            reasonPuppy:  'Doberman puppies are smart.  They are also known for being extremely loyal and alert which fits your personality type.' 
+	INTJ: { adultDog: 'Norwegian Forest Cat',
+            reasonAdult: 'Norwegian Forest Cat are smart a perfect mathc for an analytical mind.  They also tend to grow alot of fur which an introvert will love to pet.',
+			pupDog: 'Tabby', 
+            reasonPuppy:  'Tabby kittens are smart and curious. They can be extremely loyal when given the right amount of food and social media exposure.'
 		  },
-	INTP: { adultDog: 'Afghan Hound',
-            reasonAdult: 'This dog has exceptional reasoning skills which matches your analytical skills.  The Afghan Hound is, like you, very independent', 
-			pupDog: 'Chow Chow', 
-            reasonPuppy:  'Chow Chows are smart but they can be aloof, quiet, and pensive.....like you.'
+	INTP: { adultDog: 'Turkish Van',
+            reasonAdult: 'This cat has great reasoning skills which matches your analytical skills.  Turkish Van is, like you, in love with water', 
+			pupDog: 'Ragdoll', 
+            reasonPuppy:  'Ragdolls are smart but they can be aloof, quiet, and pensive.....just like your mother.'
 		  },
-	ENTJ: { adultDog: 'Border Collie',
-            reasonAdult: 'The Border Collie is probably the smartest of all dog breeds.  Both of you have one thing in common: a powerful intuition.', 
-			pupDog: 'Great Dane', 
-            reasonPuppy:  'The Great Dane puppy is confident and dominant but you will not have any trouble.  Two dominant personalities can co-exist.'
+	ENTJ: { adultDog: 'MaineCoon',
+            reasonAdult: 'The MaineCoon is probably the smartest of all cat breeds.  Both of you have one thing in common: illiteracy.', 
+			pupDog: 'Savannah', 
+            reasonPuppy:  'The Savannah is confident and dominant like a jar of mayo.  It is the result of breeding a wild cat such as a serval and a house cat.'
 		  }
 	};
 	

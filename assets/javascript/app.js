@@ -95,3 +95,49 @@ $(document).on("click", ".showMore", function (event) {
 
     }
 });
+
+
+// On click button to do further search on any word and it links to wikipedia
+$(".wikisearch").on("click", function(){
+    console.log("click me")
+    var search= $("#searchinput").val().trim();
+     console.log(search)
+    var url = "https://en.wikipedia.org/w/api.php";
+    $.ajax({
+  
+        url: url,
+        type: "GET",
+        dataType: "jsonp",
+        data:{
+          action:'opensearch',
+          search: search,
+          format: 'json',
+          limit:10,
+          namespace:0
+        }
+          
+        
+        
+      }).done(function(response){
+          console.log(response)
+          var linktext= response["3"]["0"]
+
+          var click =$("<span>").text("click > ").css("color","red")
+        
+              console.log(linktext)
+          //  link.attr("href",response["3"]["0"])
+         var animalLink = $('<a>').attr('href', linktext).text( linktext).attr("target","_blank").css("color","white");
+         console.log(response["3"]["0"])
+      //    $(".wikisearch")$('<a>').attr('href',animalLink)
+         $("#searchResults").append(click,animalLink);
+      //    $("#searchResults").text(animalLink);
+  
+  
+      })
+  })
+
+  // on click to clear search word results
+  $(".clear").on("click",function(){
+      $("#searchResults").empty();
+      $("#searchinput").val("");
+  })

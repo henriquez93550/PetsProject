@@ -11,143 +11,138 @@
     <title>Find a Friend</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-              <a class="navbar-brand" href="index.html">Find a Friend</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home
-                      <span class="sr-only">(current)</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                        <a class="nav-link" href="quiz.html">Personality Quiz</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="petfind.html">Search Companions</a>
-                      </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          
-          <div class="container">
-
-                <h1 class="question">When faced with a problem do you try to resolve the issue yourself or do you seek the counsel of others?</h1>
-                  <div class="btn-group-lg btn-group" data-toggle="buttons">
-                    <row>
-                      <div class="col-lg-6">
-                        <label class="btn btn-primary">
-                          <input type="radio" name="Q1" value="I" id="option1"> Resolve myself
-                        </label>
+        <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                    <div class="container">
+                      <a class="navbar-brand" href="index.html">Find your best animal friend</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home
+                              <span class="sr-only">(current)</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                        </ul>
                       </div>
-                      
-                      <div class="col-lg-6">
-                        <label class="btn btn-primary">
-                          <input type="radio" name="Q1" value="E" id="option2"> Look to the counsel of others
-                        </label>
-                      </div>
-                    </row>
-                </div>
-              
-
-                <h1 class="question">Can you work with theories and concepts or do you feel more comfortable dealing in facts?</h1>
-                  <div class="btn-group-lg btn-group" data-toggle="buttons">
-                    <row>
-                      <div class="col-lg-6">
-                        <label class="btn btn-primary">
-                          <input type="radio" name="Q2" value="S" id="option1"> Deals with facts
-                        </label>
-                      </div>
-                      
-                      <div class="col-lg-6">
-                        <label class="btn btn-primary">
-                          <input type="radio" name="Q2" value="N" id="option2"> Comfortable with theories and concepts
-                        </label>
-                      </div>
-                    </row>
-                </div>
-
-                <h1 class="question">When making decisions do you prefer to make decisions that are free from conflict or are you comfortable making decisions that might cause conflicts?</h1>
-                  <div class="btn-group-lg btn-group" data-toggle="buttons">
-                    <row>
-                      <div class="col-lg-6">
-                        <label class="btn btn-primary">
-                          <input type="radio" name="Q3" value="F" id="option1"> Make decisions free from conflict
-                        </label>
-                      </div>
-                     
-                      <div class="col-lg-6">
-                        <label class="btn btn-primary">
-                          <input type="radio" name="Q3" value="T" id="option2"> Make decisions where conflict is expected
-                        </label>
-                      </div>
-                    </row>
-                </div>
-
-                <h1 class="question">When you explain things to others do you convey your perceptions and leave matters open or do you make decisions and tell people how to settle the matter?</h1>
-                  <div class="btn-group-lg btn-group" data-toggle="buttons">
-                    <row>
-                      <div class="col-lg-6">
-                        <label class="btn btn-primary">
-                          <input type="radio" name="Q4" value="P" id="option1"> Explain our perceptions
-                        </label>
-                      </div>
-                      
-                      <div class="col-lg-6">
-                        <label class="btn btn-primary">
-                          <input type="radio" name="Q4" value="J" id="option2"> Make decisions where conflict is expected
-                        </label>
-                      </div>
-                    </row>
-                </div>
-                <br><br>
-
-            <input class="btn btn-primary" type="submit" id="btnGetValue" value="Get Value">
-			<p></p>
-
-          <section id="contact">
-			<div class="contact-section">
-			
-				<form>
-					<div class="col-md-12">
-			  			<div class="form-group">
-			  				<label for="exampleInputUsername">Adult Dog</label>
-					    	<input type="text" class="form-control" id="adultDog" value=''>
-							</div>
-						<div class="form-group">
-			  				<label for="exampleInputUsername">Adult Dog Reason</label>
-					    	<input type="text" class="form-control" id="reasonAdult" value=''>
-				  		</div>
-				  		<div class="form-group">
-					    	<label for="exampleInputEmail">Puppy Dog</label>
-					    	<input type="text" class="form-control" id="pupDog" value=''>
-					  	</div>	
-					  	<div class="form-group">
-					    	<label for="telephone">Puppy Dog Reason</label>
-					    	<input type="text" class="form-control" id="reasonPuppy" value=''>
-			  			</div>
-			  		</div>
-				</form>        
-			</section>
-				
-				  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-				  <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>                  
-				  <script src="Assets/Javascript/personality_script.js"></script>
-    
+                    </div>
+                  </nav>
+        
+                    <body>
+                    <div class="container">
+                        <div class="h3">When faced with a problem do you try to resolve the issue yourself or do you seek the counsel of others?</div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="Q1" value="I">
+                            I feel comfortable making decisions on my own
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="Q1" value="E">
+                            I seek the counsel of others before making a decision
+                          </label>
+                        </div>
+                        </div>
+                    </div>
+                    <br>
+                    
+                    <div class="container">
+                        <div class="h3">Are you comfortable working with theories and concepts or do you feel more comfortable dealing in facts?</div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="Q2" value="S">
+                            Deals better with facts
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="Q2" value="N">
+                            Comfortable working with theories and concepts
+                          </label>
+                        </div>
+                        </div>
+                    </div>
+                    <br>
+                    
+                    <div class="container">
+                        <div class="h3">When making decisions do you prefer to make decisions that are free from conflict or are you comfortable making decisions that might cause conflicts?</div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="Q3" value="F">
+                            Prefer to make decisions free from conflict
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="Q3" value="T">
+                            Make decisions where conflict is expected
+                          </label>
+                        </div>
+                        </div>
+                    </div>
+                    <br>
+                    
+                    <div class="container">
+                        <div class="h3">When you explain things to others do you convey your perceptions and leave matters open or do you tell people how to settle the matter?</div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="Q4" value="P">
+                            Prefer to convey my perception about the issue
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="Q4" value="J">
+                            Prefer to tell people how to resolve the issue
+                          </label>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <input type="button" id="btnGetValue" Value="Get Value" />
+                    <p></p>
+        
+                  <section id="contact">
+                    <div class="contact-section">
+                    
+                        <form>
+                            <div class="col-md-12 form-line">
+                                <h1>Results</h1>
+                                <div class="form-group">
+                                      <label for="exampleInputUsername">Myers Briggs Type</label>
+                                    <input type="text" class="form-control" id="mbType" value=''>
+                                </div>
+                                  <div class="form-group">
+                                      <label for="exampleInputUsername">Adult Dog</label>
+                                    <input type="text" class="form-control" id="adultDog" value=''>
+                                </div>
+                                <div class="form-group">
+                                      <label for="exampleInputUsername">Adult Dog Reason</label>
+                                    <input type="text" class="form-control" id="reasonAdult" value=''>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleInputEmail">Puppy Dog</label>
+                                    <input type="text" class="form-control" id="pupDog" value=''>
+                                  </div>	
+                                  <div class="form-group">
+                                    <label for="telephone">Puppy Dog Reason</label>
+                                    <input type="text" class="form-control" id="reasonPuppy" value=''>
+                                  </div>
+                              </div>
+                        </form>        
+                    </section>
+                        
+                          <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+                          <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>                  
+                          <script src="assets/javascript/personality_script.js"></script>
             
 
                  
                   </div>
-                  <script src="assets/javascript/app.js"></script>
-    
 </body>
 </html>

@@ -12,41 +12,50 @@
   <title>Find a Friend</title>
 </head>
 
-<body >
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Find a Friend</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<body class="color">
+  <div class="fixed-top container">
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-primary  ">
+     
+        <a class="navbar-brand col-md-2" href="index.html">Find a Friend</a>
+
+        <div class="input-group mb-2 " >
+          <input type="text" id="searchinput" class="form-control col-sm-4 " placeholder="search any word" aria-label="Recipient's username"
+            aria-describedby="button-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-primary  wikisearch" type="button">Search</button>
+            <button class="btn btn-primary  clear" type="button">Clear Search</button>
+          </div>
+          <div id="searchResults"> </div>
+
+        </div>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
+          
               <a class="nav-link" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link" href="quiz.html">Personality Quiz</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
           </ul>
         </div>
-      </div>
+     
     </nav>
-
+  </div>
+<div class="container fixed ">
     <form>
 
       <div class="form-row">
-        <div class="form-group col-md-4">
+        <div class="form-group col-sm-2">
           <label for="inputAnimal">Type of Animal</label>
           <input type="text" class="form-control form-control-lg" id="animal_name">
         </div>
-        <div class="form-group col-md-2">
+        <div class="form-group col-sm-2">
           <label for="inputGender">Male or Female</label>
           <select id="animal_sex" class="form-control form-control-lg">
             <option selected>Choose...</option>
@@ -54,7 +63,7 @@
             <option>F</option>
           </select>
         </div>
-        <div class="form-group col-md-4">
+        <div class="form-group col-sm-2">
           <label for="inputGender">Age</label>
           <select id="animal_age" class="form-control form-control-lg">
             <option selected>Choose...</option>
@@ -64,29 +73,28 @@
             <option>Senior</option>
           </select>
         </div>
-        <div class="form-group col-md-2">
+        <div class="form-group col-sm-2">
           <label for="inputZip">Zip</label>
           <input type="text" class="form-control form-control-lg" id="zipcode">
         </div>
-      </div>
 
-      <button type="submit" id="submit" class="btn btn-info">Submit</button>
-      <button class="btn btn-info" id="reset" type="submit">reset </button>
+        <div class="form-group col-sm-4">
+          <button type="submit" id="submit" class="btn btn-info">Submit</button>
+          <button class="btn btn-info" id="reset" type="submit">reset </button>
+        </div>
+
     </form>
 
+</div>
+ 
+    <div class="container" id="name"></div>
 
 
 
-    <div class="container">
+  
 
 
-      <div id="name"></div>
 
-    </div>
-  </div>
-
-
-  </div>
   <script src="assets/javascript/app.js"></script>
 
 </body>
